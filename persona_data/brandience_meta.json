@@ -1,0 +1,21 @@
+{
+  "positioning": "Placeholder positioning",
+  "tone": "Professional and consultative",
+  "services": [
+    "Strategy",
+    "Creative",
+    "Media",
+    "Analytics"
+  ],
+  "ideal_client_traits": [
+    "Collaborative",
+    "Growth-oriented",
+    "Transparent"
+  ],
+  "examples_of_fit": [
+    "Regional retail brand with strong local presence"
+  ],
+  "examples_of_misfit": [
+    "Large national brand seeking commodity pricing"
+  ]
+}

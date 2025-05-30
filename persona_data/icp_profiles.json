@@ -1,0 +1,235 @@
+{
+  "Franchise Marketing Executive": {
+    "Industry": "Franchise (multi-sector: QSR, finance, retail, etc.)",
+    "Roles": "Chief Marketing Officer (CMO), VP/Director of Marketing, Franchise Marketing Manager, Brand Manager, Director of Marketing, Regional Marketing Manager",
+    "Geography": "Primary: Midwest and Southeast US, Secondary: National",
+    "Org Size": "50\u2013500+ franchise locations, $100M\u2013$1B+ system-wide revenue",
+    "Goals": [
+      "Franchisee recruitment and retention",
+      "Brand leadership and reputation management",
+      "Geographic expansion and new market launches",
+      "Customer acquisition and sales growth",
+      "Digital transformation and marketing technology adoption"
+    ],
+    "Pain Points": [
+      "Balancing national brand consistency with local market needs",
+      "Proving ROI across multi-location campaigns",
+      "Franchisee engagement with marketing programs",
+      "Integrating technology stacks across locations",
+      "Standing out in saturated markets"
+    ],
+    "Style": "Data-driven, consultative, strategic; involves franchisee input and procurement",
+    "DecisionMaking": "Multi-stakeholder with franchisee advisory councils, operations, and legal",
+    "BudgetTraits": "Structured, recurring budgets with brand fund and co-op allocations; AGI $200K+",
+    "EngagementPreferences": "Retainer or high-impact project work; strategic agency partnerships",
+    "Triggers": [
+      "Franchisee dissatisfaction",
+      "Leadership change",
+      "System integrations",
+      "Brand refresh or innovation"
+    ],
+    "MarketingChannels": [
+      "SEO",
+      "local search",
+      "PPC",
+      "programmatic",
+      "social media",
+      "email",
+      "events"
+    ],
+    "TechStack": [
+      "Salesforce",
+      "HubSpot",
+      "Yext",
+      "Sprout Social",
+      "franchisee portals"
+    ],
+    "ContentPreferences": [
+      "Case studies",
+      "webinars",
+      "testimonials",
+      "compliance-friendly content",
+      "short-form video"
+    ],
+    "SuccessMetrics": [
+      "Franchisee recruitment and satisfaction",
+      "System-wide sales growth",
+      "Lead generation and conversions",
+      "Campaign ROI"
+    ]
+  },
+  "Restaurant Marketing Executive": {
+    "Industry": "Restaurants (QSR, fast-casual, casual dining, franchises)",
+    "Roles": "Chief Marketing Officer (CMO), VP/Director of Marketing, Head of Brand, Senior Marketing Manager, Director of Marketing, Regional Marketing Manager",
+    "Geography": "Primary: Midwest and Southeast US, Secondary: National",
+    "Org Size": "10\u201350+ locations, $50M\u2013$1B+ revenue",
+    "Goals": [
+      "Guest acquisition and frequency growth",
+      "Brand reputation and consistency",
+      "Geographic expansion",
+      "Franchisee support and digital engagement",
+      "Loyalty program growth"
+    ],
+    "Pain Points": [
+      "Competitive differentiation",
+      "Multi-channel ROI tracking",
+      "Technology stack integration",
+      "Operational alignment",
+      "Franchisee consistency"
+    ],
+    "Style": "Data-driven, creative, ROI-focused; collaborative with operations",
+    "DecisionMaking": "Collaborative with CFO, COO, franchise leadership, and operations",
+    "BudgetTraits": "Structured budgets across national and local marketing; AGI $200K+",
+    "EngagementPreferences": "Open to retainer and campaign-based partnerships",
+    "Triggers": [
+      "New menu launches",
+      "Franchise growth",
+      "Brand refresh",
+      "CMO appointment"
+    ],
+    "MarketingChannels": [
+      "SEO",
+      "PPC",
+      "social",
+      "loyalty apps",
+      "influencer",
+      "local store marketing"
+    ],
+    "TechStack": [
+      "POS",
+      "CRM",
+      "delivery platforms",
+      "loyalty tools"
+    ],
+    "ContentPreferences": [
+      "Guest/influencer testimonials",
+      "video",
+      "case studies",
+      "whitepapers"
+    ],
+    "SuccessMetrics": [
+      "Sales growth",
+      "ticket average",
+      "website traffic",
+      "Online orders",
+      "loyalty signups",
+      "ROI"
+    ]
+  },
+  "Healthcare Marketing Executive": {
+    "Industry": "Healthcare (hospital systems, IDNs, specialty practices)",
+    "Roles": "Chief Marketing Officer (CMO), VP/Director of Marketing, Brand Manager, Director of Marketing",
+    "Geography": "Primary: Midwest and Southeast US, Secondary: National",
+    "Org Size": "10\u201350+ locations, $500M+ annual revenue",
+    "Goals": [
+      "Patient acquisition and bookings",
+      "Brand reputation",
+      "Service line expansion",
+      "Physician recruitment and retention",
+      "Digital transformation"
+    ],
+    "Pain Points": [
+      "Healthcare compliance (HIPAA, FTC)",
+      "ROI measurement",
+      "Cross-departmental alignment",
+      "Marketing technology integration",
+      "Patient journey management"
+    ],
+    "Style": "Evidence-based, data-driven, strategic",
+    "DecisionMaking": "Includes physicians, procurement, finance, and executive leadership",
+    "BudgetTraits": "Dedicated budgets; multi-channel investment; AGI $200K+",
+    "EngagementPreferences": "Strategic agency partnerships for creative and compliant marketing",
+    "Triggers": [
+      "New service lines",
+      "Mergers/integrations",
+      "Leadership changes",
+      "Brand refresh"
+    ],
+    "MarketingChannels": [
+      "SEO",
+      "PPC",
+      "social",
+      "email",
+      "TV",
+      "patient portals"
+    ],
+    "TechStack": [
+      "CRM",
+      "analytics",
+      "digital asset management",
+      "patient communication tools"
+    ],
+    "ContentPreferences": [
+      "Case studies",
+      "webinars",
+      "provider testimonials",
+      "HIPAA-compliant content"
+    ],
+    "SuccessMetrics": [
+      "Patient growth",
+      "brand sentiment",
+      "web traffic",
+      "referrals",
+      "ROI"
+    ]
+  },
+  "Retail Marketing Decision-Maker": {
+    "Industry": "Retail (multi-location, e-commerce, grocery, department stores)",
+    "Roles": "CMO, VP of Marketing, Retail Marketing Manager, Product Marketing Manager",
+    "Geography": "Primary: Midwest and Southeast US, Secondary: National (excludes NYC, LA)",
+    "Org Size": "10\u201350+ locations, $500M+ revenue",
+    "Goals": [
+      "Drive store/online traffic and sales",
+      "Brand differentiation",
+      "Product launches and seasonal campaigns",
+      "Customer loyalty",
+      "Digital and omnichannel transformation"
+    ],
+    "Pain Points": [
+      "Standing out in crowded markets",
+      "ROI attribution across omnichannel",
+      "Tech stack integration",
+      "Marketing-merchandising alignment",
+      "Consumer behavior shifts"
+    ],
+    "Style": "Professional, concise, strategic; RFP-driven",
+    "DecisionMaking": "Cross-functional teams: marketing, finance, execs, procurement",
+    "BudgetTraits": "Structured budgets; omnichannel investment; AGI $200K+",
+    "EngagementPreferences": "Consultative partnerships with agency fluency in retail",
+    "Triggers": [
+      "New store/product launch",
+      "Digital transformation",
+      "M&A",
+      "Brand relaunch"
+    ],
+    "MarketingChannels": [
+      "SEO",
+      "PPC",
+      "email",
+      "in-store",
+      "loyalty programs",
+      "TV",
+      "print"
+    ],
+    "TechStack": [
+      "CRM",
+      "HubSpot",
+      "Salesforce",
+      "analytics tools",
+      "POS"
+    ],
+    "ContentPreferences": [
+      "Case studies",
+      "customer testimonials",
+      "data-driven reports",
+      "videos"
+    ],
+    "SuccessMetrics": [
+      "Sales growth",
+      "brand sentiment",
+      "conversion rates",
+      "app traffic",
+      "campaign ROI"
+    ]
+  }
+}

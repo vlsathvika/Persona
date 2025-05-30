@@ -1,0 +1,236 @@
+[
+  {
+    "name": "Retail",
+    "roles": "Chief Marketing Officer (CMO), VP/Director of Marketing, Brand Director, Retail Marketing Manager, Head of Retail Marketing, Product Marketing Manager, Consumer Insights Manager",
+    "industry": "Retail (multi-location: grocery, big-box, specialty, department stores, e-commerce)",
+    "description": "Retail marketers leading omnichannel campaigns across multi-location stores, franchises, and e-commerce. Collaborative and results-oriented, seeking measurable growth and strategic differentiation.",
+    "goals": [
+      "Drive store and online traffic",
+      "Support product launches and seasonal campaigns",
+      "Accelerate omnichannel integration",
+      "Build brand differentiation",
+      "Enhance customer experience and loyalty"
+    ],
+    "pain_points": [
+      "Standing out in competitive retail categories",
+      "ROI attribution across omnichannel campaigns",
+      "Aligning with merchandising and business goals",
+      "Managing rapid shifts in consumer behavior",
+      "Frustration with overpromising agencies"
+    ],
+    "communication_style": "Professional, concise, and data-driven. Prefers honest, realistic conversations and clear reporting.",
+    "triggers": [
+      "Mergers or franchise expansion",
+      "New executive appointments",
+      "New product lines or formats",
+      "Digital transformation initiatives",
+      "Major rebranding or repositioning"
+    ],
+    "marketing_channels": [
+      "SEO",
+      "PPC",
+      "social",
+      "email",
+      "TV",
+      "radio",
+      "print",
+      "in-store",
+      "SMS"
+    ],
+    "tech_stack": [
+      "Salesforce",
+      "HubSpot",
+      "CRM",
+      "POS",
+      "Retail analytics",
+      "Digital Asset Management"
+    ],
+    "content_preferences": [
+      "Case studies",
+      "whitepapers",
+      "testimonials",
+      "webinars",
+      "interactive video"
+    ],
+    "success_metrics": [
+      "Sales growth",
+      "Website/app traffic",
+      "Conversion rates",
+      "Customer loyalty",
+      "Campaign ROI"
+    ],
+    "engagement_preferences": "Open to retainer or project-based work. Expects nimble, consultative, and collaborative agencies.",
+    "decision_making": "Multi-stakeholder: includes marketing, finance, operations, and procurement"
+  },
+  {
+    "name": "Restaurant",
+    "roles": "Chief Marketing Officer (CMO), VP/Director of Marketing, Head of Brand, Senior Marketing Manager, Director of Marketing, Regional Marketing Manager",
+    "industry": "Restaurants (QSR, fast-casual, casual dining, franchises)",
+    "description": "Restaurant marketers from QSR, casual dining, and franchise systems. Operate in fast-paced environments and value agile, strategic agency partners with hospitality fluency.",
+    "goals": [
+      "Boost guest acquisition and frequency",
+      "Support franchisee alignment",
+      "Launch LTOs and menu innovations",
+      "Strengthen digital engagement",
+      "Grow loyalty programs"
+    ],
+    "pain_points": [
+      "Differentiating in crowded QSR categories",
+      "Measuring ROI across campaigns",
+      "Consistency across franchise locations",
+      "Aligning with operations and culinary",
+      "Frustration with slow or rigid agencies"
+    ],
+    "communication_style": "Fast-paced, direct, and tactical. Prefers rapid iteration and realistic planning with clear results.",
+    "triggers": [
+      "Leadership change",
+      "Menu or campaign launches",
+      "Franchise system changes",
+      "Digital transformation initiatives"
+    ],
+    "marketing_channels": [
+      "SEO",
+      "PPC",
+      "Social media",
+      "Email",
+      "Influencer",
+      "Loyalty apps",
+      "Local store marketing"
+    ],
+    "tech_stack": [
+      "POS systems",
+      "CRM",
+      "Loyalty platforms",
+      "Delivery aggregators"
+    ],
+    "content_preferences": [
+      "Guest testimonials",
+      "Influencer campaigns",
+      "Short-form video",
+      "Brand-aligned educational content"
+    ],
+    "success_metrics": [
+      "Ticket averages",
+      "Guest counts",
+      "Digital conversions",
+      "Franchisee satisfaction",
+      "Campaign ROI"
+    ],
+    "engagement_preferences": "Open to flexible service models. Prioritizes speed, relevance, and operational alignment.",
+    "decision_making": "Collaborative with marketing, ops, finance, and franchisee leadership"
+  },
+  {
+    "name": "Healthcare",
+    "roles": "Chief Marketing Officer (CMO), VP/Director of Marketing, Brand Manager, Director of Marketing",
+    "industry": "Healthcare (hospital systems, IDNs, urgent care, behavioral health, specialty practices)",
+    "description": "Healthcare marketers at hospitals, IDNs, urgent care, and behavioral health systems. Operate under strict compliance and seek agencies fluent in both strategy and regulation.",
+    "goals": [
+      "Increase patient acquisition and bookings",
+      "Build brand leadership and trust",
+      "Expand service lines",
+      "Support recruitment and retention",
+      "Advance digital transformation"
+    ],
+    "pain_points": [
+      "Compliance and regulatory challenges (HIPAA, FTC)",
+      "Measuring ROI on complex campaigns",
+      "Aligning marketing with clinical/business goals",
+      "Consumer decision friction and 'retailization'",
+      "Overpromising or non-compliant agencies"
+    ],
+    "communication_style": "Evidence-based and collaborative. Expects clear, compliant messaging and proactive reporting.",
+    "triggers": [
+      "New service lines or facility launches",
+      "Leadership or strategy shifts",
+      "Mergers/integrations",
+      "Digital health initiatives"
+    ],
+    "marketing_channels": [
+      "SEO",
+      "PPC",
+      "Social",
+      "Email",
+      "Patient portals",
+      "TV",
+      "Events"
+    ],
+    "tech_stack": [
+      "CRM",
+      "Healthcare analytics",
+      "Patient communications",
+      "Digital asset management"
+    ],
+    "content_preferences": [
+      "Webinars",
+      "Case studies",
+      "Patient/provider testimonials",
+      "Compliance-safe content"
+    ],
+    "success_metrics": [
+      "Patient volume",
+      "Referral growth",
+      "Online traffic",
+      "Brand sentiment",
+      "Campaign ROI"
+    ],
+    "engagement_preferences": "Retainer or project-based. Must be nimble, proactive, and fully HIPAA-compliant.",
+    "decision_making": "Led by marketing with input from procurement, executive leadership, and physicians"
+  },
+  {
+    "name": "Franchise",
+    "roles": "Chief Marketing Officer (CMO), VP/Director of Marketing, Franchise Marketing Manager, Brand Manager, Director of Marketing, Regional Marketing Manager",
+    "industry": "Franchise (multi-sector: QSR, finance, retail, etc.)",
+    "description": "Franchise marketers who navigate national branding with local activation. Require deep stakeholder alignment and field marketing fluency.",
+    "goals": [
+      "Franchisee recruitment and support",
+      "Brand consistency and leadership",
+      "Customer acquisition and national growth",
+      "Digital transformation",
+      "Navigating co-op marketing"
+    ],
+    "pain_points": [
+      "Balancing national branding with local needs",
+      "Franchisee engagement",
+      "ROI across co-op/local campaigns",
+      "Stakeholder misalignment",
+      "Agencies that misunderstand franchise complexity"
+    ],
+    "communication_style": "Strategic, pragmatic, and detail-driven. Values agencies with field experience and co-op expertise.",
+    "triggers": [
+      "New market launches",
+      "Leadership changes",
+      "Franchisee dissatisfaction",
+      "Brand fund strategy refresh"
+    ],
+    "marketing_channels": [
+      "SEO",
+      "Local search",
+      "PPC",
+      "Email",
+      "Franchisee portals",
+      "Video",
+      "Events"
+    ],
+    "tech_stack": [
+      "HubSpot",
+      "Salesforce",
+      "Yext",
+      "Sprout Social",
+      "Franchise marketing automation"
+    ],
+    "content_preferences": [
+      "Franchisee testimonials",
+      "Field success stories",
+      "Short-form video",
+      "RFP-ready decks"
+    ],
+    "success_metrics": [
+      "Recruitment growth",
+      "System-wide sales",
+      "Campaign engagement",
+      "Franchisee feedback"
+    ],
+    "engagement_preferences": "Seeks agency partners, not vendors. Emphasis on co-op clarity and scalable collaboration.",
+    "decision_making": "Involves marketing, field teams, franchisee councils, legal, finance"
+  }
+]

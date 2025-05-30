@@ -1,0 +1,8 @@
+streamlit
+fpdf
+python-dotenv
+groq
+python-docx
+PyMuPDF  
+docx2txt
+
