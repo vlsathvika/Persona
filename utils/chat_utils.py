@@ -2,11 +2,11 @@ import os
 from groq import Groq
 from dotenv import load_dotenv
 
-# Load environment variables from .env if present
-load_dotenv()
+import streamlit as st
 
-# Initialize Groq client
-client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
+
+# Initialize Groq client using Streamlit secrets
+client = Groq(api_key=st.secrets["groq"])
 
 def query_groq(prompt, model="llama3-70b-8192", temperature=0.7, max_tokens=800):
     if not client.api_key:
