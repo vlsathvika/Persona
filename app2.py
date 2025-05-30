@@ -37,7 +37,7 @@ if not check_password():
     st.stop()
 # Set up the Streamlit page
 st.set_page_config(page_title="Persona Bot by Brandience", layout="wide")
-st.title("🤖 Persona Bot – Simulate Realistic Persona Conversations")
+st.title("🤖  Brandience Persona Bot")
 
 # Initialize chat history
 if "chat_history" not in st.session_state:
@@ -78,7 +78,7 @@ with st.expander("📄 Persona Summary"):
             st.markdown(f"**{key}:** {val}")
 
 # Chat display
-st.subheader("💬 Persona Chat")
+st.subheader(" Persona Chat")
 for msg in st.session_state.chat_history:
     st.chat_message(msg["role"]).write(msg["content"])
 
