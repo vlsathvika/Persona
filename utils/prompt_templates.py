@@ -10,6 +10,15 @@ def build_prompt(
 ):
     is_brandience = brand_context is not None and isinstance(brand_context, dict)
 
+    # Define scenario-specific behavior
+    scenario_instructions = {
+        "General Q&A": "Respond naturally to any idea or question from the user, offering realistic and relevant feedback.",
+        "Messaging Tester": "Evaluate the messaging shared. Is it clear, credible, and compelling for someone in your role?",
+        "Differentiation Analyzer": "Assess whether this idea would stand out in a crowded market. What makes it unique or weak?",
+        "Expectation Explorer": "Describe what you would expect to hear if someone pitched this idea to you.",
+        "Negotiation Simulator": "Assume you're interested, but have concerns. Respond with strategic pushback or clarifying questions."
+    }
+
     def get_val(d, key, fallback="N/A"):
         return d.get(key) or d.get(key.lower(), fallback)
 
@@ -69,6 +78,7 @@ You are simulating a conversation with a senior marketing decision-maker persona
 {format_persona(persona_data)}
 
 ### Scenario: {scenario}
+{scenario_instructions.get(scenario, '')}
 """
 
     if is_brandience:
