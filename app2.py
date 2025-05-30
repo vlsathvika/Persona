@@ -96,7 +96,7 @@ if user_input := st.chat_input("Ask the persona something or test a message"):
         file_context=file_context,
         file_description=file_description,
         scenario=scenario,
-        brand_context=brand_context if mode == "Current Brand Positioning" else custom_context
+        brand_context=brand_context if mode == "Current Brand Positioning" else None
     )
 
     with st.spinner("Thinking like your persona..."):
