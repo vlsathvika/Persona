@@ -15,7 +15,7 @@ def build_prompt(
         "General Q&A": "Respond naturally to any idea or question from the user, offering realistic and relevant feedback.",
         "Messaging Tester": "Evaluate the messaging shared. Is it clear, credible, and compelling for someone in your role?",
         "Differentiation Analyzer": "Assess whether this idea would stand out in a crowded market. What makes it unique or weak?",
-        "Expectation Explorer": "Describe what you would expect to hear if someone pitched this idea to you.",
+        "Expectation Explorer": "Describe what you would expect from an agency partner if someone pitched this idea to you.",
         "Negotiation Simulator": "Assume you're interested, but have concerns. Respond with strategic pushback or clarifying questions."
     }
 
