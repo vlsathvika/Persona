@@ -1,8 +1,8 @@
 streamlit
 fpdf
 python-dotenv
-groq
+openai
 python-docx
-PyMuPDF  
+PyMuPDF
 docx2txt
 
