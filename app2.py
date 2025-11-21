@@ -1,6 +1,6 @@
 import streamlit as st
 from utils.prompt_templates import build_prompt
-from utils.chat_utils import query_groq
+from utils.chat_utils import query_openai
 from utils.file_utils import extract_text_from_file
 from fpdf import FPDF
 import json
@@ -100,7 +100,7 @@ if user_input := st.chat_input("Ask the persona something or test a message"):
     )
 
     with st.spinner("Thinking like your persona..."):
-        response = query_groq(prompt)
+        response = query_openai(prompt)
 
     st.chat_message("assistant").write(response)
 
@@ -135,11 +135,13 @@ def generate_chat_pdf(history):
         pdf.multi_cell(0, 10, content)
         pdf.ln()
 
-    with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp_file:
-        pdf.output(tmp_file.name)
-        return tmp_file.name
+    # Return PDF as bytes so Streamlit can reliably offer it via st.download_button
+    pdf_bytes = pdf.output(dest='S').encode('latin-1')
+    return pdf_bytes
 
-if st.button("📄 Download Chat History as PDF") and st.session_state.chat_history:
-    path = generate_chat_pdf(st.session_state.chat_history)
-    with open(path, "rb") as f:
-        st.download_button("Download PDF", f, file_name="persona_chat.pdf", mime="application/pdf")
+if st.button("📄 Generate Chat PDF") and st.session_state.chat_history:
+    # Generate PDF bytes and store in session state so the download button persists
+    st.session_state["last_pdf"] = generate_chat_pdf(st.session_state.chat_history)
+
+if "last_pdf" in st.session_state:
+    st.download_button("Download Chat History as PDF", data=st.session_state["last_pdf"], file_name="persona_chat.pdf", mime="application/pdf")
